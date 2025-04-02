@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="รวมแลนด์มาร์คของจังหวัดในภาคกลางของประเทศไทย">
-    <title>แลนด์มาร์คของจังหวัดในภาคกลางของประเทศไทย</title>
+    <meta name="description" content="รวมแลนด์มาร์คของจังหวัดสมุทรปราการ">
+    <title>แลนด์มาร์คของจังหวัดสมุทรปราการ</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600&display=swap" rel="stylesheet">
     <style>
@@ -21,6 +21,7 @@
             text-align: center;
             color: #006064;
             margin-bottom: 30px;
+            font-size: clamp(1.5rem, 4vw, 2.5rem);
         }
         .province-container {
             display: flex;
@@ -33,16 +34,21 @@
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             overflow: hidden;
-            width: 350px;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
             transition: transform 0.3s;
+            margin-bottom: 10px;
         }
         .province-card:hover {
             transform: translateY(-5px);
         }
         .province-image {
-            height: 200px;
+            height: 250px;
             width: 100%;
-            object-fit: cover;
+            object-fit: contain;
+            padding: 20px;
+            background-color: #f9f9f9;
         }
         .province-content {
             padding: 20px;
@@ -50,7 +56,7 @@
         .province-name {
             color: #00796B;
             margin-top: 0;
-            font-size: 22px;
+            font-size: clamp(1.2rem, 3vw, 1.8rem);
             border-bottom: 2px solid #4DB6AC;
             padding-bottom: 8px;
         }
@@ -64,9 +70,9 @@
             text-align: center;
             color: #004D40;
             margin: 30px 0;
-            font-size: 24px;
+            font-size: clamp(1.3rem, 3.5vw, 2rem);
         }
-            .footer {
+        .footer {
             background-color: #004D40;
             color: white;
             text-align: center;
@@ -139,153 +145,12 @@
     </style>
 </head>
 <body>
-    <h1>แลนด์มาร์คของจังหวัดในภาคกลางของประเทศไทย</h1>
+    <h1>แลนด์มาร์คของจังหวัดสมุทรปราการ</h1>
     
     <div class="province-container">
-        <!-- กรุงเทพมหานคร -->
-        <div class="province-card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Seal_of_Bangkok.svg/800px-Seal_of_Bangkok.svg.png" alt="กรุงเทพมหานคร" class="province-image">
-            <div class="province-content">
-                <h2 class="province-name">กรุงเทพมหานคร</h2>
-                <ul class="landmark-list">
-                    <li><a href="https://www.navy.mi.th/htr-museum/" target="_blank">พิพิธภัณฑ์เรือหลวงแม่กลอง</a></li>
-                    <li><a href="https://www.samutsakhon.go.th/content/culture/detail/10/data.html" target="_blank">ศาลพันท้ายนรสิงห์</a></li>
-                    <li><a href="https://www.paiduaykan.com/province/central/samutsakorn/thachalom.html" target="_blank">ตลาดน้ำท่าฉลอม</a></li>
-                    <li><a href="https://temple.thai-tour.com/data/place/temple/wat/samutsakhon/สค3-07/" target="_blank">วัดโกรกกราก</a></li>
-                    <li><a href="https://www.samutsakhon.go.th/content/travel/detail/4/data.html" target="_blank">หาดสมุทรสาคร</a></li>
-                </ul>
-                    <li><a href="https://www.tourismthailand.org/Destinations/Provinces/Bangkok/217" target="_blank">วัดพระศรีรัตนศาสดาราม (วัดพระแก้ว)</a></li>
-                    <li><a href="https://www.tourismthailand.org/Attractions/wat-arun" target="_blank">วัดอรุณราชวรารามราชวรมหาวิหาร (วัดแจ้ง)</a></li>
-                    <li><a href="https://www.royalgrandpalace.th/en/home" target="_blank">พระบรมมหาราชวัง</a></li>
-                    <li><a href="https://th.wikipedia.org/wiki/อนุสาวรีย์ประชาธิปไตย" target="_blank">อนุสาวรีย์ประชาธิปไตย</a></li>
-                    <li><a href="https://www.iconsiam.com/th" target="_blank">ไอคอนสยาม</a></li>
-                </ul>
-            </div>
-        </div>
-        
-        <!-- นนทบุรี -->
-        <div class="province-card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Seal_of_Nonthaburi_Province.svg/800px-Seal_of_Nonthaburi_Province.svg.png" alt="นนทบุรี" class="province-image">
-            <div class="province-content">
-                <h2 class="province-name">นนทบุรี</h2>
-                <ul class="landmark-list">
-                    <li><a href="https://www.tourismthailand.org/Destinations/Provinces/Nonthaburi/225" target="_blank">เกาะเกร็ด</a></li>
-                    <li><a href="https://th.wikipedia.org/wiki/วัดปรมัยยิกาวาส" target="_blank">วัดปรมัยยิกาวาส</a></li>
-                    <li><a href="https://temple.thai-tour.com/data/place/temple/wat/nonthaburi/แต102-06/" target="_blank">วัดเฉลิมพระเกียรติวรวิหาร</a></li>
-                    <li><a href="https://www.navy.mi.th/htr-museum/index.php?option=com_content&view=article&id=34" target="_blank">พิพิธภัณฑ์เรือหลวงแม่กลอง</a></li>
-                    <li><a href="https://www.paiduaykan.com/province/central/nonthaburi/sainoimarket.html" target="_blank">ตลาดน้ำไทรน้อย</a></li>
-                </ul>
-            </div>
-        </div>
-        
-        <!-- ปทุมธานี -->
-        <div class="province-card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Seal_of_Pathum_Thani_Province.svg/800px-Seal_of_Pathum_Thani_Province.svg.png" alt="ปทุมธานี" class="province-image">
-            <div class="province-content">
-                <h2 class="province-name">ปทุมธานี</h2>
-                <ul class="landmark-list">
-                    <li><a href="https://thailandtourismdirectory.go.th/th/info/attraction/detail/itemid/9953" target="_blank">วัดไผ่ล้อม</a></li>
-                    <li><a href="https://www.dreamworld.co.th/" target="_blank">ดรีมเวิลด์</a></li>
-                    <li><a href="https://www.nstda.or.th/tsp/" target="_blank">อุทยานวิทยาศาสตร์ประเทศไทย</a></li>
-                    <li><a href="https://th.wikipedia.org/wiki/ตลาดน้ำคลองรังสิต" target="_blank">ตลาดน้ำคลองรังสิต</a></li>
-                    <li><a href="https://www.wisdomking.or.th/" target="_blank">พิพิธภัณฑ์การเกษตรเฉลิมพระเกียรติฯ</a></li>
-                </ul>
-            </div>
-        </div>
-        
-        <!-- พระนครศรีอยุธยา -->
-        <div class="province-card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Seal_of_Phra_Nakhon_Si_Ayutthaya_Province.svg/800px-Seal_of_Phra_Nakhon_Si_Ayutthaya_Province.svg.png" alt="พระนครศรีอยุธยา" class="province-image">
-            <div class="province-content">
-                <h2 class="province-name">พระนครศรีอยุธยา</h2>
-                <ul class="landmark-list">
-                    <li><a href="https://www.ayutthaya.go.th/travel/location_detail.php?location_id=239" target="_blank">อุทยานประวัติศาสตร์พระนครศรีอยุธยา</a></li>
-                    <li><a href="https://www.ayutthaya.go.th/travel/location_detail.php?location_id=4" target="_blank">วัดพระศรีสรรเพชญ์</a></li>
-                    <li><a href="https://www.ayutthaya.go.th/travel/location_detail.php?location_id=30" target="_blank">วัดไชยวัฒนาราม</a></li>
-                    <li><a href="https://www.ayutthaya.go.th/travel/location_detail.php?location_id=5" target="_blank">วัดมหาธาตุ</a></li>
-                    <li><a href="https://www.ayutthaya.go.th/travel/location_detail.php?location_id=44" target="_blank">พระราชวังบางปะอิน</a></li>
-                </ul>
-            </div>
-        </div>
-        
-        <!-- อ่างทอง -->
-        <div class="province-card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Seal_of_Ang_Thong_Province.svg/800px-Seal_of_Ang_Thong_Province.svg.png" alt="อ่างทอง" class="province-image">
-            <div class="province-content">
-                <h2 class="province-name">อ่างทอง</h2>
-                <ul class="landmark-list">
-                    <li><a href="https://www.angthong.go.th/travel/detail/16/data.html" target="_blank">วัดขุนอินทประมูล</a></li>
-                    <li><a href="https://travel.trueid.net/detail/XkXX4vdONJj7" target="_blank">วัดไชโยวรวิหาร</a></li>
-                    <li><a href="https://www.paiduaykan.com/province/central/angthong/sanchaorongtong.html" target="_blank">ตลาดศาลเจ้าโรงทอง</a></li>
-                    <li><a href="https://travel.kapook.com/view70761.html" target="_blank">หมู่บ้านท้ากระดาษสา</a></li>
-                    <li><a href="https://www.muang-angthong.com/travel/detail/19/data.html" target="_blank">วัดม่วง</a></li>
-                </ul>
-            </div>
-        </div>
-        
-        <!-- ลพบุรี -->
-        <div class="province-card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Seal_of_Lopburi_Province.svg/800px-Seal_of_Lopburi_Province.svg.png" alt="ลพบุรี" class="province-image">
-            <div class="province-content">
-                <h2 class="province-name">ลพบุรี</h2>
-                <ul class="landmark-list">
-                    <li><a href="https://www.lopburi.go.th/th/travel/detail/95/data.html" target="_blank">พระนารายณ์ราชนิเวศน์</a></li>
-                    <li><a href="https://travel.trueid.net/detail/MJg8RBAz2G" target="_blank">ศาลพระกาฬ</a></li>
-                    <li><a href="https://www.thaitravellerscheck.com/2020/11/blog-post_10.html" target="_blank">ทุ่งดอกทานตะวัน</a></li>
-                    <li><a href="https://www.tbz.co.th/" target="_blank">สวนสัตว์เปิดทีบีแซด</a></li>
-                    <li><a href="https://www.tatnews.org/2022/05/hop-into-lopburis-phra-prang-sam-yod-temple/" target="_blank">ปราสาทสามยอด</a></li>
-                </ul>
-            </div>
-        </div>
-        
-        <!-- สิงห์บุรี -->
-        <div class="province-card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Seal_of_Sing_Buri_Province.svg/800px-Seal_of_Sing_Buri_Province.svg.png" alt="สิงห์บุรี" class="province-image">
-            <div class="province-content">
-                <h2 class="province-name">สิงห์บุรี</h2>
-                <ul class="landmark-list">
-                    <li><a href="https://singburi.go.th/content/tourism/detail/51/data.html" target="_blank">อนุสาวรีย์วีรชนค่ายบางระจัน</a></li>
-                    <li><a href="https://singburi.go.th/content/tourism/detail/10/data.html" target="_blank">วัดพระนอนจักรสีห์วรวิหาร</a></li>
-                    <li><a href="https://singburi.go.th/content/tourism/detail/3/data.html" target="_blank">วัดพิกุลทอง</a></li>
-                    <li><a href="https://singburi.go.th/content/tourism/detail/8/data.html" target="_blank">เมืองโบราณบ้านคูเมือง</a></li>
-                    <li><a href="https://temple.thai-tour.com/data/place/temple/wat/singburi/สห2-05/" target="_blank">วัดสว่างอารมณ์</a></li>
-                </ul>
-            </div>
-        </div>
-        
-        <!-- ชัยนาท -->
-        <div class="province-card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Seal_of_Chai_Nat_Province.svg/800px-Seal_of_Chai_Nat_Province.svg.png" alt="ชัยนาท" class="province-image">
-            <div class="province-content">
-                <h2 class="province-name">ชัยนาท</h2>
-                <ul class="landmark-list">
-                    <li><a href="https://temple.thai-tour.com/data/place/temple/wat/chainat/ชน1-01/" target="_blank">วัดธรรมามูลวรวิหาร</a></li>
-                    <li><a href="https://www.egat.co.th/index.php?option=com_content&view=article&id=78&Itemid=117" target="_blank">เขื่อนเจ้าพระยา</a></li>
-                    <li><a href="https://www.chainatbirdpark.com/" target="_blank">สวนนกชัยนาท</a></li>
-                    <li><a href="https://www.m-culture.go.th/chainat/news_view.php?nid=550" target="_blank">วัดปากคลองมะขามเฒ่า</a></li>
-                    <li><a href="https://temple.thai-tour.com/data/place/temple/wat/chainat/ชน1-03/" target="_blank">วัดมหาธาตุ</a></li>
-                </ul>
-            </div>
-        </div>
-        
-        <!-- สระบุรี -->
-        <div class="province-card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Seal_of_Saraburi_Province.svg/800px-Seal_of_Saraburi_Province.svg.png" alt="สระบุรี" class="province-image">
-            <div class="province-content">
-                <h2 class="province-name">สระบุรี</h2>
-                <ul class="landmark-list">
-                    <li><a href="https://temple.thai-tour.com/data/place/temple/wat/saraburi/สบ1-06/" target="_blank">วัดพระพุทธฉาย</a></li>
-                    <li><a href="https://www.egat.co.th/index.php?option=com_content&view=article&id=80&Itemid=117" target="_blank">เขื่อนป่าสักชลสิทธิ์</a></li>
-                    <li><a href="https://www.dnp.go.th/parkkm/เขตห้ามล่าสัตว์ป่า/เจ็ดสาวน้อย/" target="_blank">น้ำตกเจ็ดสาวน้อย</a></li>
-                    <li><a href="https://www.phra-phutthabat.org/" target="_blank">วัดพระพุทธบาทราชวรมหาวิหาร</a></li>
-                    <li><a href="https://saraburi.go.th/places/สวนพฤกษศาสตร์ภาคกลาง-พระราชดำริ/" target="_blank">สวนพฤกษศาสตร์ภาคกลาง</a></li>
-                </ul>
-            </div>
-        </div>
-        
         <!-- สมุทรปราการ -->
         <div class="province-card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Seal_of_Samut_Prakan_Province.svg/800px-Seal_of_Samut_Prakan_Province.svg.png" alt="สมุทรปราการ" class="province-image">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Samutphakhan.png/800px-Samutphakhan.png" alt="สมุทรปราการ" class="province-image">
             <div class="province-content">
                 <h2 class="province-name">สมุทรปราการ</h2>
                 <ul class="landmark-list">
@@ -297,57 +162,12 @@
                 </ul>
             </div>
         </div>
-        
-        <!-- นครปฐม -->
-        <div class="province-card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Seal_of_Nakhon_Pathom_Province.svg/800px-Seal_of_Nakhon_Pathom_Province.svg.png" alt="นครปฐม" class="province-image">
-            <div class="province-content">
-                <h2 class="province-name">นครปฐม</h2>
-                <ul class="landmark-list">
-                    <li><a href="https://www.nakhonpathom.go.th/travel/detail/10/data.html" target="_blank">องค์พระปฐมเจดีย์</a></li>
-                    <li><a href="https://www.nakhonpathom.go.th/travel/detail/12/data.html" target="_blank">พระราชวังสนามจันทร์</a></li>
-                    <li><a href="https://www.paiduaykan.com/province/central/nakornpathom/donwai.html" target="_blank">ตลาดน้ำดอนหวาย</a></li>
-                    <li><a href="https://phutthamonthon.org/" target="_blank">พุทธมณฑล</a></li>
-                    <li><a href="https://watraikhing.com/" target="_blank">วัดไร่ขิง</a></li>
-                </ul>
-            </div>
-        </div>
-        
-        <!-- สมุทรสาคร -->
-        <div class="province-card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Seal_of_Samut_Sakhon_Province.svg/800px-Seal_of_Samut_Sakhon_Province.svg.png" alt="สมุทรสาคร" class="province-image">
-            <div class="province-content">
-                <h2 class="province-name">สมุทรสาคร</h2>
-                <ul class="landmark-list">
-                    <li><a href="https://www.tourismthailand.org/Attraction/maeklong-ship-museum-samut-sakhon" target="_blank">พิพิธภัณฑ์เรือหลวงแม่กลอง</a></li>
-                    <li><a href="https://www.tourismthailand.org/Attraction/panthai-norasing-shrine" target="_blank">ศาลพันท้ายนรสิงห์</a></li>
-                    <li><a href="https://www.tourismthailand.org/Attraction/tha-chalom-floating-market" target="_blank">ตลาดน้ำท่าฉลอม</a></li>
-                    <li><a href="https://www.tourismthailand.org/Attraction/wat-krokkrak" target="_blank">วัดโกรกกราก</a></li>
-                    <li><a href="https://www.tourismthailand.org/Attraction/samut-sakhon-beach" target="_blank">หาดสมุทรสาคร</a></li>
-                </ul>
-            </div>
-        </div>
-        
-        <!-- สมุทรสงคราม -->
-        <div class="province-card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Seal_of_Samut_Songkhram_Province.svg/800px-Seal_of_Samut_Songkhram_Province.svg.png" alt="สมุทรสงคราม" class="province-image">
-            <div class="province-content">
-                <h2 class="province-name">สมุทรสงคราม</h2>
-                <ul class="landmark-list">
-                    <li><a href="https://www.tourismthailand.org/Attraction/amphawa-floating-market" target="_blank">ตลาดน้ำอัมพวา</a></li>
-                    <li><a href="https://www.tourismthailand.org/Attraction/damnoen-saduak-floating-market" target="_blank">ตลาดน้ำดำเนินสะดวก</a></li>
-                    <li><a href="https://www.tourismthailand.org/Attraction/king-rama-ii-memorial-park" target="_blank">อุทยาน ร.2</a></li>
-                    <li><a href="https://www.tourismthailand.org/Attraction/thai-dessert-museum" target="_blank">บ้านพิพิธภัณฑ์ขนมไทย</a></li>
-                    <li><a href="https://www.tourismthailand.org/Attraction/wat-phet-samut-worawihan" target="_blank">วัดเพชรสมุทรวรวิหาร</a></li>
-                </ul>
-            </div>
-        </div>
     </div>
 
     <footer class="footer">
         <div class="container">
-            <h3>แลนด์มาร์คของจังหวัดในภาคกลางของประเทศไทย</h3>
-            <p>ข้อมูลแลนด์มาร์คสำหรับนักท่องเที่ยวที่สนใจเยี่ยมชมสถานที่สำคัญในภาคกลางของประเทศไทย</p>
+            <h3>แลนด์มาร์คของจังหวัดสมุทรปราการ</h3>
+            <p>ข้อมูลแลนด์มาร์คสำหรับนักท่องเที่ยวที่สนใจเยี่ยมชมสถานที่สำคัญในจังหวัดสมุทรปราการ</p>
             
             <div class="social-icons">
                 <a href="#" target="_blank"><i class="fab fa-facebook"></i></a> <!-- Facebook -->
@@ -358,7 +178,7 @@
             
             <p>ข้อมูลเพิ่มเติม: <a href="https://www.tourismthailand.org/" target="_blank">การท่องเที่ยวแห่งประเทศไทย</a></p>
             <p>ติดต่อเรา: <a href="mailto:info@thailandtourism.com">info@thailandtourism.com</a></p>
-            <p>&copy; 2025 แลนด์มาร์คจังหวัดภาคกลาง. สงวนลิขสิทธิ์.</p>
+            <p>&copy; 2025 แลนด์มาร์คจังหวัดสมุทรปราการ. สงวนลิขสิทธิ์.</p>
         </div>
     </footer>
 </body>
